@@ -16,9 +16,15 @@ This repository contains my implementations of 11 Go projects designed to teach 
   - Basic routing
 - **Key Concepts**: HTTP handlers, form parsing, file servers
 
-### 2. [Project 2 Name]
-- **Location**: `project-2/`
-- **Features**: Coming soon...
+### 2. Simple CRUD API
+- **Location**: `simple-crud-api/`
+- **Features**: 
+  - Full CRUD operations (Create, Read, Update, Delete)
+  - RESTful API endpoints
+  - JSON request/response handling
+  - In-memory data storage
+  - Movie database with director information
+- **Key Concepts**: REST API, JSON encoding/decoding, HTTP methods, struct tags
 
 ### 3. [Project 3 Name]
 - **Location**: `project-3/`
@@ -39,6 +45,8 @@ Each project is self-contained in its own directory:
 ```bash
 # Navigate to a project
 cd simple-web-server
+# OR
+cd simple-crud-api
 
 # Run the project
 go run main.go
@@ -59,6 +67,7 @@ go run main.go
 
 - **Language**: Go
 - **Web**: net/http package
+- **Router**: Gorilla Mux
 - **Testing**: Go testing package
 - **Database**: [To be added]
 
